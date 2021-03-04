@@ -1,0 +1,150 @@
+body{
+    background-color: 	#404040;
+}
+
+.nav-bar{
+    display: flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+}
+
+.devicon-git-plain{
+    width: 96px;
+}
+
+.skill-wrapper{
+    width: 120px;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.skill-img{
+    width: 96px;
+    height: 96px;
+}
+
+
+#name{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+
+h2{
+    margin: 10px;
+}
+a,h2{
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a:hover{
+    border-bottom: 1px solid white; 
+}
+
+#navigator{
+    display: flex;
+    justify-content:space-around;
+}
+
+#hamburger{
+    display: none;
+    background-color: transparent;
+    border: 0;
+    color: #fff;
+    cursor: pointer;
+    font-size: 20px;
+    margin: 10px;
+} 
+
+.skills-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    flex-wrap: wrap;
+}
+
+.nav-bar-item{
+    padding: 10px;
+}
+
+#hamburger:focus{
+    outline: none;
+}
+
+.img-wrapper{
+    padding-top: 10%;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.headshot{
+    border-radius:100%;
+}
+
+.description-wrapper{
+    margin: auto;
+    width: 50%;
+}
+
+p{
+    color: white;
+    text-align: center;
+}
+
+.tech-stack-header{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+#header{
+    text-align: center;
+}
+
+@media only screen and (min-device-width: 767px)  {  
+    .skills-wrapper{
+        width: 500px;
+        margin: auto;
+    }
+}
+
+
+@media only screen and (max-device-width: 767px)  {  
+    #navigator{
+        display: none;
+        width: 100%;
+        flex-direction: column;
+        text-align: center;
+    } 
+    
+    #hamburger{
+        display: block;
+    }
+
+    #navigator.show{
+        display: flex;
+        padding: 0;
+    }
+
+    .nav-bar-item{
+        display: block;
+        border-bottom: 1px solid #EAEAEB;
+        margin: 0;
+        text-align: center;
+    }
+
+    .img-wrapper{
+        padding-top: 35%;
+    }
+    .description-wrapper{
+       width:100%;
+    }
+}
+

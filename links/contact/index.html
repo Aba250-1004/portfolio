@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+    <title>Amal's Portfolio</title>
+</head>
+<body>
+    <nav class="nav-bar">
+        <div id="name">
+            <h2><a href="../../index.html">Amal Amchtal</a></h2>
+        </div>
+        <button id="hamburger">
+            <i class='fas fa-bars'></i>
+        </button>
+        <ul id="navigator">
+            <h2><a href="../../index.html" class="nav-bar-item">About</a></h2>
+            <h2><a href="../projects/index.html" class="nav-bar-item">Projects</a></h2>
+            <h2><a href="./index.html" class="nav-bar-item">Contact</a></h2>
+        </ul>
+    </nav>
+
+    <div class="contact-container">
+        <div class="form">
+            <div class="contact-info">
+                <h3 class="title">Contact Info</h3>
+                <p class="text">Feel free to contact me!</p>
+
+                <div class="info">
+                    <div class="information">
+                        <img class="icon" alt="" src="https://img.icons8.com/officel/480/000000/worldwide-location--v2.png"/>
+                        <p>250 East 63rd St Apt 1004, NY 10065</p>
+                    </div>
+                    <div class="information">
+                        <img class="icon" alt="" src="https://img.icons8.com/doodle/480/000000/email--v1.png"/>
+                        <p>abamchtal@gmail.com</p>
+                    </div>
+                    <div class="information">
+                        <img class="icon" alt="" src="https://img.icons8.com/doodle/480/000000/phone--v1.png"/>
+                        <p>917-703-9396</p>
+                    </div>
+                </div>
+
+                <div class="social-media">
+                    <p>Connect with me:</p>
+                    <div class="social-icons">
+                        <a href="https://github.com/Aba250-1004"><img class="icon" src="https://img.icons8.com/plasticine/400/000000/github.png"/></a>
+                        <a href="https://www.linkedin.com/in/amalamchtal/"><img class="icon" src="https://img.icons8.com/doodle/480/000000/linkedin--v2.png"/></a>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-form">
+                <!-- <span class="circle one"></span>
+                <span class="circle two"></span> -->
+
+                <form action="https://formspree.io/f/myybqoqb" method="POST">
+                    <h3 class=title>Contact Me</h3>
+                    <div class="input-container focus">
+                        <input type="text" name="name" class="input">
+                        <label for="name">Name</label>
+                        <span>Name</span>
+                    </div>
+                    <div class="input-container focus">
+                        <input type="email" name="Email" class="input">
+                        <label for="Email">Email</label>
+                        <span>Email</span>
+                    </div>
+                    <div class="input-container textarea focus">
+                        <textarea name="message" class="input"></textarea>
+                        <label for="message">Message</label>
+                        <span>Message</span>
+                    </div>
+                    <input type="submit" value="Send" class="btn">
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
